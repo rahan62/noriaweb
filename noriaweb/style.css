@@ -1,0 +1,28 @@
+h1 {
+    color:aqua ;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+a:visited {
+    color: black;
+}
+.header-section {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.header-section > div {
+    width: calc(100% / 3);
+}
+
+@media (max-width: 768px) {
+    .header-section > div {
+        width: 100%;
+        text-align: center;
+    }
+}
+.noria {
+    font-size: 40px;
+}
